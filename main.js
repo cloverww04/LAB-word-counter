@@ -23,6 +23,8 @@ const wordCounter = (value) => {
 // OPTIONAL CHALLENGE
 const toggleMode = (btnText) => {
   // complete the function
+    var element = document.body;
+    element.classList.toggle("dark");
 }
 
 // ************************************************ //
